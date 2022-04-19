@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_modules_amenities",
+  "info": {
+    "displayName": "Amenities",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Subtitle": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    }
+  }
+}

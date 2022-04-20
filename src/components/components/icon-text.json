@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_icon_texts",
+  "info": {
+    "displayName": "IconText",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true,
+      "unique": false
+    }
+  }
+}

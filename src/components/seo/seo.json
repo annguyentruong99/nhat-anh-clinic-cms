@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SeoTitle": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "minLength": 3
+    },
+    "SeoDesc": {
+      "type": "text",
+      "required": true,
+      "minLength": 5,
+      "default": "Phòng Khám Đa Khoa Nhật Anh"
+    }
+  }
+}

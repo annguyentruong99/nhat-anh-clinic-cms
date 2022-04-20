@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_modules_amenities",
+  "info": {
+    "displayName": "Amenities",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ModuleTitle": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "default": "Vì sao nên lựa chọn chúng tôi?"
+    },
+    "Amenity": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-text"
+    }
+  }
+}

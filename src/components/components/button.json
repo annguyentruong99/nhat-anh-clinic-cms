@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "dice-d6",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "minLength": 5
+    },
+    "Link": {
+      "type": "text",
+      "minLength": 5
+    },
+    "Variant": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "link"
+      ],
+      "default": "primary",
+      "required": false
+    }
+  }
+}

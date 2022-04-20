@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_copyrights",
+  "info": {
+    "displayName": "Copyright",
+    "icon": "lock"
+  },
+  "options": {},
+  "attributes": {
+    "ReservedRights": {
+      "type": "text",
+      "required": true,
+      "minLength": 30,
+      "default": "Copyright 2021©Phong kham Da khoa Nhat Anh. All rights reserved. All right reserved"
+    }
+  }
+}

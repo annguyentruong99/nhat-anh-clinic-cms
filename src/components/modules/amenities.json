@@ -7,23 +7,16 @@
   },
   "options": {},
   "attributes": {
-    "Image": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "Title": {
+    "ModuleTitle": {
       "type": "string",
-      "unique": true,
-      "required": true
-    },
-    "Subtitle": {
-      "type": "text",
       "required": true,
-      "unique": true
+      "unique": false,
+      "default": "Vì sao nên lựa chọn chúng tôi?"
+    },
+    "Amenity": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-text"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_modules_services_sliders",
+  "info": {
+    "displayName": "ServicesSlider",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.section-heading",
+      "required": true
+    }
+  }
+}

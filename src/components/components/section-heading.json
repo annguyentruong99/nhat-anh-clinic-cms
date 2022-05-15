@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_section_headings",
+  "info": {
+    "displayName": "SectionHeading",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

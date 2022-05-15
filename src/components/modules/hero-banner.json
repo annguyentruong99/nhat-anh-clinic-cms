@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_modules_hero_banners",
+  "info": {
+    "displayName": "HeroBanner",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.split-text",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button"
+    }
+  }
+}

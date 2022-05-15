@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Title": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -26,7 +26,7 @@
       "required": true,
       "unique": true
     },
-    "Slug": {
+    "slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -34,9 +34,9 @@
       },
       "type": "text",
       "unique": true,
-      "required": true
+      "required": false
     },
-    "Seo": {
+    "seo": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -47,7 +47,7 @@
       "component": "seo.seo",
       "required": true
     },
-    "Modules": {
+    "modules": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -55,8 +55,11 @@
       },
       "type": "dynamiczone",
       "components": [
-        "modules.banner",
-        "modules.amenities"
+        "modules.hero-banner",
+        "modules.services-slider",
+        "modules.doctors-slider",
+        "modules.why-choose-us",
+        "modules.achievements"
       ]
     }
   }

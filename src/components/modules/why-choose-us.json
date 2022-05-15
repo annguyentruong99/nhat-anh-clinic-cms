@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_modules_why_chooseuses",
+  "info": {
+    "displayName": "WhyChooseUs",
+    "icon": "hands-helping",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.section-heading"
+    },
+    "imageText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.image-text"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

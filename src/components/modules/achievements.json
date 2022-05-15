@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_modules_achievements",
+  "info": {
+    "displayName": "Achievements",
+    "icon": "lock-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.split-text",
+      "required": true
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "achievements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon-text"
+    }
+  }
+}

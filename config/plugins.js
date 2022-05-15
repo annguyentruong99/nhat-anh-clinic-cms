@@ -3,13 +3,13 @@ module.exports = ({ env }) => ({
     enabled: true,
     config: {
       contentTypes: {
-        article: {
-          field: "Slug",
-          references: "Title",
+        service: {
+          field: "slug",
+          references: "name",
         },
-        page: {
-          field: "Slug",
-          references: "Title",
+        doctor: {
+          field: "slug",
+          references: "name",
         },
       },
     },

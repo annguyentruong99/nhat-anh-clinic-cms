@@ -7,13 +7,13 @@
   },
   "options": {},
   "attributes": {
-    "SeoTitle": {
+    "seoTitle": {
       "type": "string",
       "required": true,
       "unique": true,
       "minLength": 3
     },
-    "SeoDesc": {
+    "seoDesc": {
       "type": "text",
       "required": true,
       "minLength": 5,

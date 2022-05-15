@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_modules_doctors_sliders",
+  "info": {
+    "displayName": "DoctorsSlider",
+    "icon": "first-aid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.section-heading",
+      "required": true
+    }
+  }
+}

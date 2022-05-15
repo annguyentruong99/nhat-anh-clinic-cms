@@ -2,24 +2,25 @@
   "collectionName": "components_components_icon_texts",
   "info": {
     "displayName": "IconText",
-    "icon": "address-card"
+    "icon": "address-card",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Icon": {
-      "allowedTypes": [
-        "images"
-      ],
+    "icon": {
       "type": "media",
       "multiple": false,
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
-    "Title": {
+    "title": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
-    "Description": {
+    "description": {
       "type": "text",
       "required": true,
       "unique": false

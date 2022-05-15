@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_service_highlights",
+  "info": {
+    "displayName": "ServiceHighlight",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

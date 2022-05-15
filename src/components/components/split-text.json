@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_split_texts",
+  "info": {
+    "displayName": "SplitText",
+    "icon": "cut"
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "string",
+      "required": true
+    },
+    "title2": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

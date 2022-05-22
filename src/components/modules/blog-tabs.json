@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_modules_blog_tabs",
+  "info": {
+    "displayName": "BlogTabs",
+    "icon": "tags",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.section-heading"
+    },
+    "ads": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.ad-banner"
+    }
+  }
+}

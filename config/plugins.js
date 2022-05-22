@@ -11,6 +11,10 @@ module.exports = ({ env }) => ({
           field: "slug",
           references: "name",
         },
+        post: {
+          field: "slug",
+          references: "title",
+        },
       },
     },
   },

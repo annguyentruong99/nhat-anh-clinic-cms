@@ -59,7 +59,8 @@
         "modules.services-slider",
         "modules.doctors-slider",
         "modules.why-choose-us",
-        "modules.achievements"
+        "modules.achievements",
+        "modules.blog-tabs"
       ]
     }
   }

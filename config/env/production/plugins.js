@@ -22,18 +22,10 @@ module.exports = ({ env }) => ({
           field: "slug",
           references: "name",
         },
-      },
-    },
-  },
-  graphql: {
-    config: {
-      endpoint: "/graphql",
-      shadowCRUD: true,
-      playgroundAlways: true,
-      depthLimit: 7,
-      amountLimit: 100,
-      apolloServer: {
-        tracing: false,
+        post: {
+          field: "slug",
+          references: "title",
+        },
       },
     },
   },

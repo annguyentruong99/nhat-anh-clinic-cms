@@ -18,4 +18,26 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  seo: {
+    enabled: true,
+  },
+  "rest-cache": {
+    config: {
+      provider: {
+        name: "memory",
+        options: {
+          max: 32767,
+          maxAge: 3600,
+        },
+      },
+      strategy: {
+        contentTypes: [
+          "api::doctor.doctor",
+          "api::post.post",
+          "api::page.page",
+          "api::service.service",
+        ],
+      },
+    },
+  },
 });

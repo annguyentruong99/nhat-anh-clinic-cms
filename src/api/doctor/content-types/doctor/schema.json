@@ -12,6 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "slug": {
+      "type": "text",
+      "required": true
+    },
     "role": {
       "type": "string",
       "required": true
@@ -20,25 +29,23 @@
       "type": "string",
       "required": true
     },
-    "name": {
-      "type": "string",
-      "required": true
-    },
     "description": {
-      "type": "text",
-      "required": true
-    },
-    "slug": {
       "type": "string",
       "required": true
     },
     "cover": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "services": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::service.service",
+      "mappedBy": "doctorsInService"
     }
   }
 }

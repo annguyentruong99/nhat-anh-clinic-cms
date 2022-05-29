@@ -55,12 +55,16 @@
       },
       "type": "dynamiczone",
       "components": [
+        "modules.achievements",
+        "modules.blog-tabs",
+        "modules.doctors-slider",
         "modules.hero-banner",
         "modules.services-slider",
-        "modules.doctors-slider",
         "modules.why-choose-us",
-        "modules.achievements",
-        "modules.blog-tabs"
+        "modules.post-highlights",
+        "modules.newest-posts",
+        "modules.ads",
+        "modules.services-list"
       ]
     }
   }

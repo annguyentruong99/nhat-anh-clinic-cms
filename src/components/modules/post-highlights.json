@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_modules_post_highlights",
+  "info": {
+    "displayName": "PostHighlights",
+    "icon": "umbrella-beach",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.section-heading",
+      "required": true
+    }
+  }
+}

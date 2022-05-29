@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_modules_services_lists",
+  "info": {
+    "displayName": "ServicesList",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "specializedServicesHeading": {
+      "type": "string",
+      "required": true,
+      "default": "Khám chuyên khoa"
+    },
+    "technicalServicesHeading": {
+      "type": "string",
+      "required": true,
+      "default": "Kỹ thuật"
+    },
+    "groupServicesHeading": {
+      "type": "string",
+      "required": true,
+      "default": "Dịch vụ"
+    }
+  }
+}

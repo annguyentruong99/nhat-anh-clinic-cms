@@ -14,12 +14,15 @@
   "dependencies": {
     "@strapi-community/strapi-provider-upload-google-cloud-storage": "^4.1.7",
     "@strapi/plugin-i18n": "4.1.8",
+    "@strapi/plugin-seo": "^1.7.3",
     "@strapi/plugin-users-permissions": "4.1.8",
     "@strapi/strapi": "4.1.8",
     "better-sqlite3": "7.4.6",
     "pg": "^8.7.3",
     "strapi-plugin-populate-deep": "^0.1.2",
-    "strapi-plugin-slugify": "^2.2.2"
+    "strapi-plugin-rest-cache": "^4.2.4",
+    "strapi-plugin-slugify": "^2.2.2",
+    "strapi-provider-rest-cache-memory": "^4.2.4"
   },
   "author": {
     "name": "A Strapi developer"

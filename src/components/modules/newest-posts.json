@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_modules_newest_posts",
+  "info": {
+    "displayName": "NewestPosts",
+    "icon": "wine-glass-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.section-heading",
+      "required": true
+    }
+  }
+}

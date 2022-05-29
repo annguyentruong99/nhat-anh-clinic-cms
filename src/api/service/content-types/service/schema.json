@@ -48,7 +48,8 @@
         }
       },
       "component": "components.service-highlight",
-      "required": true
+      "required": true,
+      "max": 3
     },
     "slug": {
       "pluginOptions": {
@@ -60,17 +61,36 @@
       "required": true
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
+      }
+    },
+    "doctorsInService": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::doctor.doctor",
+      "inversedBy": "services"
+    },
+    "modules": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
       },
-      "required": true
+      "type": "dynamiczone",
+      "components": [
+        "modules.doctors-slider",
+        "modules.hero-banner",
+        "modules.service-info"
+      ]
     }
   }
 }

@@ -7,12 +7,7 @@ module.exports = ({ env }) => [
         useDefaults: true,
         directives: {
           "connect-src": ["'self'", "http:"],
-          "img-src": [
-            "'self'",
-            "data:",
-            "blob:",
-            `https://storage.googleapis.com/${env("GCS_BUCKET_NAME")}`,
-          ],
+          "img-src": ["*"],
           "media-src": [
             "'self'",
             "data:",

@@ -20,17 +20,27 @@
       "type": "text"
     },
     "cover": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "cta": {
       "type": "component",
       "repeatable": false,
       "component": "components.button"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "style-a",
+        "style-b",
+        "style-c",
+        "style-e"
+      ],
+      "default": "style-a"
     }
   }
 }
